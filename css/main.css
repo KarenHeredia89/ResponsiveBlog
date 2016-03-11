@@ -1,0 +1,102 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+@media (min-width: 360px) and (max-width: 768px){
+	nav img {
+		width: 50%;
+	}
+	.spring .cuadro_texto{
+		padding: 30px 5px;
+		width: 250px;
+	}
+}
+body {
+	font-family: Courgette;
+	color: orange;
+}
+.font {
+	font-family: Helvetica;
+	font-weight: 400;
+	color: #eee;
+}
+.italic {
+	font-style: italic;
+}
+#mainNav {
+	background-color: #0a0a0f;
+}
+.nav {
+	margin-top: 20px;
+	border:transparent;
+}
+#spring {
+	background-color: #1f1f2e;
+}
+.spring {
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 140px;
+	margin-bottom: 50px;
+	padding: 150px 0px;
+}
+.cuadro_texto {
+	height: 200px;
+	width: 400px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin: auto;
+	padding: 50px 10px;
+}
+.cuadro {
+	background-color: #0a0a0f;
+	padding: 5px;
+	margin-bottom: 50px;
+	padding: 5px 30px;
+}
+.cuadro_nm {
+	background-color: #0a0a0f;
+	padding: 5px 30px;
+}
+.well {
+	background-color: #0a0a0f;
+	border-color: transparent;
+	padding-bottom: 5px;
+}
+.form-group {
+	background-color: #1f1f2e;
+	border-color: transparent;
+}
+.icons {
+	font-size: 20px;
+	background-color: #1f1f2e;
+	border-radius: 100%;
+	padding: 10px;
+	margin: 5px 10px 10px;
+}
+.video-responsive {
+	padding: 0px; /* IE6 workaround*/
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+ 
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+	width: 100%;
+	height: 100%;
+}
+footer {
+	background-color: #0a0a0f;
+	padding: 10px 0px;
+}
